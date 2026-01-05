@@ -26,7 +26,7 @@ String Bmi_category (double bmi){
 
 
 void main(){
-  double Bmi=(Bmi_calculation(67,1.75));
+  double Bmi=(Bmi_calculation(80,1.75));
   String c=Bmi_category(Bmi);
 
   print("Your BMI is:${Bmi.toStringAsFixed(2)}\n"
