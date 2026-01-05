@@ -11,7 +11,7 @@ String Bmi_category (double bmi){
  condition="Normal";
    }
    if(25<=bmi&&bmi<=29.9){
-      "Overweight";
+      condition="Overweight";
    }
    if(bmi>=30){
  condition="more Obese";
