@@ -7,7 +7,7 @@ String Bmi_category (double bmi){
    if(bmi<18.5){
    condition= "Underweight";
    }
-   if(18.5<=bmi&&bmi>=24.9){
+   if(18.5<=bmi&&bmi<=24.9){
  condition="Normal";
    }
    if(25<=bmi&&bmi<=29.9){
@@ -26,7 +26,7 @@ String Bmi_category (double bmi){
 
 
 void main(){
-  double Bmi=(Bmi_calculation(80,1.75));
+  double Bmi=(Bmi_calculation(67,1.75));
   String category =Bmi_category(Bmi);
 
   print("Your BMI is:${Bmi.toStringAsFixed(2)}\n"
